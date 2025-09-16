@@ -1,3 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty of Science and Technology - MRU</title>
+  <style>
+    /* Reset some defaults */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    /* Navigation bar */
+    .navbar {
+      background: steelblue;
+      padding: 15px;
+    }
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    .navbar ul li {
+      margin: 0 15px;
+    }
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .navbar ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      margin: 20px;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 200px;
+      background: #ddd;
+      padding: 15px;
+    }
+    .sidebar ul {
+      list-style: none;
+    }
+    .sidebar ul li {
+      margin: 10px 0;
+    }
+    .sidebar ul li a {
+      color: #000;
+      text-decoration: none;
+    }
+    .sidebar ul li a:hover {
+      color: steelblue;
+    }
+
+    /* Main content */
+    .content {
+      flex: 1;
+      padding: 20px;
+      background: #fff;
+      margin-left: 20px;
+      border-radius: 5px;
+    }
+    .content h1 {
+      margin-bottom: 20px;
+      color: steelblue;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
       border-collapse: collapse;
       margin-top: 10px;
     }
@@ -49,7 +134,6 @@
 
     <!-- Main content -->
     <main class="content">
-    <h1>Muteesa 1 Royal University</h1>
       <h1>Courses under Faculty of Science and Technology</h1>
       <table>
         <thead>
@@ -57,14 +141,14 @@
             <th>No.</th>
             <th>Course Code</th>
             <th>Course Name</th>
-            <th>Credits</th>
+            <th>Period</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>1</td>
-            <td>CST101</td>
-            <td>Introduction to Programming</td>
+            <td>BEICT</td>
+            <td>EDUCATION WITH ICT</td>
             <td>3</td>
           </tr>
           <tr>
@@ -75,8 +159,8 @@
           </tr>
           <tr>
             <td>3</td>
-            <td>CST103</td>
-            <td>Database Systems</td>
+            <td>DIT</td>
+            <td>DEPL0MA IN INFORMATION TECHNOLOGY</td>
             <td>3</td>
           </tr>
           <tr>
