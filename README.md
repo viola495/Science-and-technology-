@@ -134,6 +134,7 @@
 
     <!-- Main content -->
     <main class="content">
+    <h1>Muteesa 1 Royal University</h1>
       <h1>Courses under Faculty of Science and Technology</h1>
       <table>
         <thead>
